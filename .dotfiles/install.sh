@@ -1,5 +1,7 @@
-# install nix
-curl -L https://nixos.org/nix/install | sh
+# install nix single user
+# curl -L https://nixos.org/nix/install | sh
+# install nixos as multiple user
+curl -L https://nixos.org/nix/install | sh -s -- --daemon
 
 # source nix
 . ~/.nix-profile/etc/profile.d/nix.sh
