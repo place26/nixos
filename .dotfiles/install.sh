@@ -15,6 +15,7 @@ nix-env -iA \
 	nixpkgs.yarn \
 	nixpkgs.fzf \
 	nixpkgs.ripgrep \
+	nixpkgs.zoxide \
 	nixpkgs.exa \
 	nixpkgs.fd \
 	nixpkgs.gnupg \
