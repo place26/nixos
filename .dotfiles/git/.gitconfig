@@ -1,0 +1,13 @@
+[user]
+	name = Place TwentySix
+	email = 55628781+place26@users.noreply.github.com
+	signingkey = AE55C8F85048510F27042424FC97FB74DC237E4C
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[gpg]
+	program = /Users/xupei/.local/bin/gpg.another
